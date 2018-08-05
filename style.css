@@ -1,0 +1,620 @@
+* { margin:0; padding:0; box-sizing: border-box; }
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'sanomat-regular', sans-serif;
+  }
+
+i {
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    margin-top: 4px;
+    margin-bottom:4px;
+}
+
+
+@font-face {
+    font-family: fontawesome;
+    src: url(fonts/fontawesome-webfont.woff2);
+}
+
+@font-face {
+    font-family: sanomat-bold;
+    src: url(fonts/Sanomat\ Grab\ Web-Bold.woff2);
+}
+
+@font-face {
+    font-family: sanomat-medium;
+    src: url(fonts/Sanomat\ Grab\ Web-Medium.woff2);
+}
+
+@font-face {
+    font-family: sanomat-regular;
+    src:url(fonts/Sanomat\ Grab\ Web-Regular.woff2);
+}
+
+
+.main-navigation {
+    width: 100%;
+    background-color: #fff;
+    padding-top: 10px;
+    margin-bottom: 0;
+    position: static;
+    border-radius:3px;
+    position: fixed;
+    z-index: 100;
+    filter:opacity(97%)
+  }
+
+.left-menu {
+    margin-left: 3%;
+    margin-top: -5px;
+ }
+
+.right-menu {
+    margin-right: 5%;
+    float: right;
+    margin-top: -40px;
+    margin-bottom: 10px;
+}
+
+.menu-items li {
+    display: inline;
+    margin: 15px;  
+  }
+  
+  .menu-items a {
+    text-decoration:none;
+    color: #333;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'sanomat-regular', sans-serif;
+  }
+  
+  .menu-items a:hover {
+    color: #00BA51;
+    text-decoration: none;
+  }
+  
+  .menu-items a:visited,
+  .menu-items a:link, {
+    text-decoration: none;
+  }
+
+.grab-logo {
+    height: 35px; 
+}
+
+.grabpay-topnav {
+    height: 30px;
+    margin-bottom:-5px;
+      }
+
+.button-nav-container {
+    border: 2px solid #00BA51;
+    border-radius: 5px;
+    height: 42px;
+    width: 180px;
+    background: transparent;
+    color: #00BA51;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'sanomat-medium', sans-serif;
+    outline: none;
+    }
+
+    .driver-img {
+        height: 497px;
+        width:1519.2;
+        margin: 0 auto;
+        background-image: url(img/driver.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        }
+    
+    header { 
+      height: 805px; 
+      font-family: 'sanomat-bold'; 
+    
+    }
+    
+    .banner {
+        left: 12%;
+        right: auto;
+        top: 20%;
+        position: absolute;
+        width: 35%;
+      }
+    
+    .banner h1 {
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 50px;
+      text-align: left;
+    }
+    
+    .sub-title {
+        font-size: 1.2em;
+        font-weight: 500;
+        line-height: 1.3;
+        text-align: left; 
+        display: block;
+        text-shadow: none;
+        color: #fff;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        margin-top: 0px;
+        margin-bottom: 23px;
+        width: 531.71px;
+        height:24.8;
+        font-family: 'sanomat-regular'
+      }
+    
+    #title {
+        width: 531.71px;
+        font-family: sanomat-bold; 
+        color: white;
+        align-self: center;
+        justify-content: flex-start;
+        font-size: 3.1em;
+        font-weight: 600;
+        line-height: 1;
+        margin-top: 23px;
+        margin-bottom: 20px;
+    }
+    
+    .banner .button-banner {
+        
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        line-height: 1;
+        font-size: 1.15em;
+        background-color: #00B140;
+        opacity: 1;
+        border: 1px solid;  
+        border-color: #00B140;
+        background: #00b13f;
+        color: #fff;
+        font-weight: 600px;
+        text-align:center;
+        text-transform: uppercase;
+        border-radius: 6px;
+        cursor: pointer;
+        font-family:'sanomat-regular' bold;
+        font-weight: 600;
+        outline: none !important;
+        outline-color: initial !important;
+        outline-style: none !important;
+        outline-width: initial !important;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+        display:inline-block;
+        
+    }
+
+    #how-it-works {
+        padding-top: 50px;
+        padding-bottom: 0px;
+        position:relative;
+        display:block;
+        font-family: 'sanomat-regular', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.42857143;
+        color: #333;
+    }
+
+    .container-how-it-works {
+        max-width: 1400px;
+        width:100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    } 
+
+    .container-how-it-works .h2-how-it-works {
+    font-weight: 600;
+    font-size: 2.571em;
+    color: #00BA51;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    font-family: 'sanomat-bold', sans-serif;
+    line-height: 1.1;
+    display: block;
+    }    
+
+    .container-how-it-works .sub-title-how-it-works {
+        font-family: 'sanomat-regular', sans-serif;
+        position:relative;
+        text-align: center;
+        width:100%;
+        font-weight: 500;
+        font-size: 1.143em;
+        color: #464B57;
+        margin-top: 0px;
+        margin-bottom: 23px;
+        text-align:center;
+    }
+
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .carousel--mobileview {
+        min-height: 580px;
+        position: relative;
+    }
+
+    .carousel--mobileview .carousel-indicators {
+        width: 50% !important;
+        float: right;
+        position: static;
+        bottom: 20px;
+        left: 50%;
+        z-index: 15;
+        padding-left: 0;
+        margin-left: -30%;
+        text-align: center;
+        list-style: none;
+    }
+
+    .carousel--mobileview .carousel-indicators ol {
+        margin-top: 0px;
+        margin-bottom: 23px;
+        font-weight: 400;
+        display:block;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 40px;
+    }
+
+    .carousel--mobileview .carousel-indicators li {
+        padding: 0 0 10px 45px;
+        text-indent: 0;
+        position: relative;
+        font-size: 1.143em;
+                }
+
+    .carousel-bg {
+            background-image: url(img/empty-v2.png);
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:cover;
+            position: absolute;
+            left: 50%;
+            z-index: 9;
+            top: 0px;
+            margin-left: -400px;
+            width: 400px;
+            height: 580px;
+        }  
+
+    .carousel-inner {
+        top: 68px;
+        margin-left: -290px;
+        width: 210px !important;
+        height: 365px;
+        position: absolute;
+        left: 50%;
+        overflow: hidden;
+    }
+
+    .carousel--mobileview .carousel-indicators li:before {
+        height: 92px;
+        background-image: url(img/arrowdown.png);
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size:cover;
+        bottom: 5px;
+        left: 8px;
+        display:block;
+        position:absolute;
+    }
+
+    .carousel--mobileview .carousel-indicators li:after {
+        line-height: 23px;
+        font-size: 0.8em;
+        content: attr(data-step);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid #00BA51;
+        font-weight: 500;
+        font-size: 1em;
+        color: #00BA51;
+        text-align: center;
+        line-height: 29px;
+    }
+
+#what-you-should-know {
+    background-color: #009d3b;
+    text-align: center;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.container-what-you-should-know {
+     display:block;
+    }
+
+.h2-what-you-should-know {
+    font-weight: 600;
+    font-size: 2.571em;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 23px;
+    font-family:'sanomat-bold', sans-serif;
+}
+
+.button-what-you-should-know {
+    background-color: #fff;
+    color: #00b040;
+    text-transform: uppercase;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 16px 20px 15px;
+    font-size: 1.35em;
+    line-height: 1;
+    font-weight: 600;
+    outline: none !important;
+    text-align:center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-family: 'sanomat-regular', sans-serif;
+    }
+
+.container-freedom-to-choose {
+    text-align:center;
+    padding-top:90px;
+    
+}
+
+
+.h2-freedom-to-choose {
+    font-weight: 600;
+    font-size: 2.571em;
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom: 23px;
+    font-family:'sanomat-bold';
+    line-height: 1.1;  
+    color: #fff !important;
+    width:1519px;
+    height:44.8;
+    
+} 
+
+.sub-title-freedom-to-choose {
+    font-weight: 500px;
+    font-size: 1.143em;
+    color: #fff !important;
+    margin-top: 0px;
+    margin-bottom: 23px;
+    text-align:center;
+    margin-right:0px;
+    margin-left:0px;
+    font-family: 'sanomat-regular'
+}
+
+.image-freedom-to-choose {
+ background-image: url(https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/taxi-2-2.jpg);
+ height: 497px;
+ width:1519.2;
+ margin: 0 auto;
+ background-repeat:no-repeat;
+ background-position: center;
+ background-size:cover;
+}
+
+
+#download-grab {
+    margin-top: -20px;
+    background-image: url(https://www.grab.com/vn/wp-content/uploads/sites/11/2016/04/dg-dl-grab-back.jpg);
+    height: 460px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+  }
+  
+  #download-grab .text-center {
+    font-weight: 600;
+    font-size: 2.571em;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-left: 600px;
+    color: #fff;
+    align-content: center;
+  }
+  
+  .center-block {
+    margin: 0 auto; 
+    width: 500px;
+    height: 170px;
+  }
+  
+  .QR-code {
+    padding-left: 80px;
+    display: inline-block;
+  }
+  
+  .block {
+    color: #fff;
+    display: block;
+    font-size: 1.35em;
+    padding-bottom: 10px;
+  }
+  
+  .QR-code-image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .download-stores {
+    margin-left: 90px;
+    float: right;
+    margin-top: 45px;
+    padding-top: 0px;
+    }
+  
+  .download-stores a {
+    border: 1px solid #fff;
+    display: block;
+    width: 150px;
+    height: 54px;
+    border-radius: 5px;
+  }
+  
+  .download-stores img {
+    max-width: 100%;
+  }
+  
+  .bottom-margin {
+    margin-bottom: 10px;
+  }
+
+  #latest-news .title-latest-news {
+    font-weight: 600;
+    font-size: 3em;
+    color: #00BA51;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 600px;
+  }
+  
+  #latest-news .sub-title-latest-news  {
+    font-weight: 400;
+    font-size: 1.35em;
+    color: #464B57;
+    margin-bottom: 30px;
+    padding-left:600px;
+  }
+  
+  #latest-news .news:hover {
+    opacity: 0.7;
+  }
+  .row {
+    padding-right: 8%;
+    padding-left: 10%;
+  }
+  
+  .area-1-1 {
+    background-image: url(https://www.grab.com/vn/wp-content/uploads/sites/11/2018/08/shutterstock_1110188894_resize-1.jpg);
+  }
+  
+  .area-1-2 {
+    background-image: url(https://www.grab.com/vn/wp-content/uploads/sites/11/2018/07/image004.jpg);
+  }
+  
+  .area-2-1 {
+    background-image: url(https://www.grab.com/vn/wp-content/uploads/sites/11/2018/07/Business.jpg);
+  }
+  
+  .area-2-2 {
+    background-image: url(https://www.grab.com/vn/wp-content/uploads/sites/11/2018/06/shutterstock_1110188894_resize.jpg);
+  }
+  
+  .area-2-3 {
+    background-image: url(https://www.grab.com/vn/wp-content/uploads/sites/11/2018/06/90days_Blog_1920x675-01-1-1.jpg);
+  }
+  
+  .bottom-margin {
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .blurb {
+    width: 100%;
+    padding: 20px;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    font-size: 1.131em;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .date {
+    display: block;
+    font-size: 1em;
+    font-weight: 200;
+  }
+  
+  .button-view-more {
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: 'sanomat-regular','sans-serif';
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    outline: none !important;
+    color: #fff;
+    width:100%;
+    font-weight: 600px;
+
+}
+
+  .button-view-more a {
+    padding: 5px 40px;
+    background-color: #1AA6F6;
+    border: none;
+    margin-bottom: 40px;
+    text-decoration:none;
+
+  }
+  
+  .button-view-more a:hover {
+    background-color: #529CF2;
+    border-color: #529CF2;
+    opacity: 0.9;
+  }
+
+  footer {
+    height: 200px; 
+    background-color: #009d3b;
+    text-align: center;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}   
+
+
+  
