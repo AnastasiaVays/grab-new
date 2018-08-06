@@ -267,6 +267,7 @@ i {
         margin-left: -30%;
         text-align: center;
         list-style: none;
+        padding-top:90px;
     }
 
     .carousel--mobileview .carousel-indicators ol {
@@ -462,7 +463,7 @@ i {
   .QR-code {
     padding-left: 80px;
     display: inline-block;
-  }
+}
   
   .block {
     color: #fff;
@@ -474,6 +475,7 @@ i {
   .QR-code-image {
     width: 120px;
     height: 120px;
+    float:left;
   }
   
   .download-stores {
@@ -587,7 +589,6 @@ i {
     text-align: center;
     outline: none !important;
     color: #fff;
-    width:100%;
     font-weight: 600px;
 
 }
@@ -608,13 +609,34 @@ i {
   }
 
   footer {
-    height: 200px; 
+    height: 300px; 
     background-color: #009d3b;
     text-align: center;
     width:100%;
     margin-left:auto;
     margin-right:auto;
-}   
+    align-content:center;
+    font-size:50px;
+    margin-top:20px;
+    padding-top:20px;
+    justify-content: space-around;
+   
+}
 
+.social-icons a {
+    text-decoration:none;
+    color: #333;
+    font-size: 60px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'sanomat-regular', sans-serif;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.social-icons a:hover {
+    color: #00BA51;
+    text-decoration: none;
+}
 
   
